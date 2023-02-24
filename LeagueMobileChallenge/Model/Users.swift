@@ -11,4 +11,5 @@ import Foundation
 struct Users: Codable  {
     let id: Int
     let username: String
+    let avatar: String
 }

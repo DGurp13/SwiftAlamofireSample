@@ -75,7 +75,6 @@ class APIController {
         let authHeader: HTTPHeaders = ["x-access-token" : userToken]
         
         Alamofire.request(url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: authHeader).responseJSON { (response) in
-            debugPrint(response)
             completion(response.data, response.error)
         }
     }

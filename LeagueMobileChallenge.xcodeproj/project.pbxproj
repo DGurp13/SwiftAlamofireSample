@@ -20,6 +20,8 @@
 		C71D028329A711E8009B3356 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71D028229A711E8009B3356 /* Users.swift */; };
 		C73D996129A5DC7C001EDEC1 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73D996029A5DC7C001EDEC1 /* PostsViewController.swift */; };
 		C73D996429A5DE4B001EDEC1 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73D996329A5DE4B001EDEC1 /* Posts.swift */; };
+		C7AA881529A8314900476F34 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AA881429A8314900476F34 /* Info.swift */; };
+		C7AA881729A8497000476F34 /* ExtraFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AA881629A8497000476F34 /* ExtraFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		C71D028229A711E8009B3356 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		C73D996029A5DC7C001EDEC1 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		C73D996329A5DE4B001EDEC1 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		C7AA881429A8314900476F34 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		C7AA881629A8497000476F34 /* ExtraFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraFile.swift; sourceTree = "<group>"; };
 		D938A729EC8AE9651EAE0B00 /* Pods-LeagueMobileChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeagueMobileChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeagueMobileChallenge/Pods-LeagueMobileChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +155,7 @@
 				B6AC695821E6578F0094A9B1 /* Assets.xcassets */,
 				B6AC695A21E6578F0094A9B1 /* LaunchScreen.storyboard */,
 				B6AC695D21E6578F0094A9B1 /* Info.plist */,
+				C7AA881629A8497000476F34 /* ExtraFile.swift */,
 			);
 			path = LeagueMobileChallenge;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 			children = (
 				C73D996329A5DE4B001EDEC1 /* Posts.swift */,
 				C71D028229A711E8009B3356 /* Users.swift */,
+				C7AA881429A8314900476F34 /* Info.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -411,8 +417,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C73D996129A5DC7C001EDEC1 /* PostsViewController.swift in Sources */,
+				C7AA881729A8497000476F34 /* ExtraFile.swift in Sources */,
 				B6AC69A221ECEC740094A9B1 /* APIController.swift in Sources */,
 				C71D028329A711E8009B3356 /* Users.swift in Sources */,
+				C7AA881529A8314900476F34 /* Info.swift in Sources */,
 				B6AC694F21E6578D0094A9B1 /* AppDelegate.swift in Sources */,
 				C73D996429A5DE4B001EDEC1 /* Posts.swift in Sources */,
 			);
